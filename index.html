@@ -11,70 +11,106 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">watchcharm</a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Catalog</a></li>
-          <li><a href="">Sale</a></li>
-          <li><a href="">Reviews</a></li>
-          <li><a href="">Contact Us</a></li>
+    <!-- #region header -->
+    <header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="header-logo">watchcharm</a>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">About Us</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Catalog</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Sale</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Reviews</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="" class="header-nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-social-list">
+          <li class="header-social-item">
+            <a href="a" target="_blank" class="header-nav-link">
+              <img
+                src="./images/facebook.svg"
+                alt="facebook"
+                width="36"
+                height="36"
+              />
+            </a>
+          </li>
+          <li class="header-social-item" class="header-nav-link">
+            <a href="a" target="_blank">
+              <img
+                src="./images/instagram.svg"
+                alt="instagram"
+                width="36"
+                height="36"
+              />
+            </a>
+          </li>
+          <li class="header-social-item">
+            <a href="a" target="_blank" class="header-nav-link">
+              <img
+                src="./images/youtube.svg"
+                alt="youtube"
+                width="36"
+                height="36"
+              />
+            </a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a href="a" target="_blank">
-            <img
-              src="./images/facebook.svg"
-              alt="facebook"
-              width="36"
-              height="36"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="a" target="_blank">
-            <img
-              src="./images/instagram.svg"
-              alt="instagram"
-              width="36"
-              height="36"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="a" target="_blank">
-            <img
-              src="./images/youtube.svg"
-              alt="youtube"
-              width="36"
-              height="36"
-            />
-          </a>
-        </li>
-      </ul>
+      </div>
+      <!-- #endregion header -->
     </header>
 
     <main>
+      <!-- #region home -->
       <section>
-        <h1>Welcome to our collection of premium watches</h1>
-        <p>
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-        <img src="./images/people.png" alt="people" width="146" height="60" />
-        <a href="./index.html">Scroll down</a>
-
-        <img
-          src="./images/mainwatch.png"
-          alt="watch"
-          width="1150"
-          height="500"
-        />
+        <div class="home-container">
+          <div class="home-main-wrapper">
+            <div class="home-wrapper-left">
+              <h1>
+                Welcome to our
+                <span class="text-decoration">collection</span>
+                of premium watches
+              </h1>
+              <p>
+                Our watches are not just timepieces, but also an expression of
+                your personality and lifestyle. From classic designs to modern
+                ones, we have a watch to suit every taste and occasion.
+              </p>
+            </div>
+            <div class="home-wrapper-right">
+              <img
+                src="./images/people.png"
+                alt="people"
+                width="146"
+                height="60"
+              />
+              <a href="./index.html">Scroll down</a>
+            </div>
+          </div>
+          <img
+            src="./images/mainwatch.png"
+            alt="watch"
+            width="1150"
+            height="500"
+          />
+        </div>
       </section>
+      <!-- #endregion home -->
+
+      <!-- #region about -->
       <section>
         <h2>About Us</h2>
         <p>
@@ -97,8 +133,11 @@
           height="532"
         />
       </section>
+      <!-- #endregion about -->
+
+      <!-- #region catalog -->
       <section>
-        <h3>Catalog</h3>
+        <h2>Catalog</h2>
         <ul>
           <li>
             <img
@@ -162,6 +201,8 @@
           </li>
         </ul>
       </section>
+      <!-- #endregion catalog -->
+
       <section>
         <img
           src="./images/graybackground.png"
@@ -176,7 +217,9 @@
         <button type="button">Contact Us</button>
       </section>
 
+      <!-- #region sale -->
       <section>
+        <h2>Sale</h2>
         <ul>
           <li>
             <img
@@ -218,7 +261,7 @@
           height="398"
         />
 
-        <h4>MARQ&reg; Commander (Gen 2) - Carbon Edition</h4>
+        <h3>MARQ&reg; Commander (Gen 2) - Carbon Edition</h3>
         <p>Product tag: 706587</p>
         <p>€1500</p>
         <span>€3000</span>
@@ -250,15 +293,18 @@
           </li>
         </ul>
       </section>
+      <!-- #endregion sale -->
 
+      <!-- #region reviews -->
       <section>
+        <h2>Reviews</h2>
         <img
           src="./images/john-wax.png"
           alt="John Wax"
           width="56"
           height="56"
         />
-        <h5>John Wax</h5>
+        <h3>John Wax</h3>
         <p>
           Buying a watch from was the best choice for me. The design is
           perfectly combined with high quality materials. The strap fits nicely
@@ -270,7 +316,7 @@
           width="56"
           height="56"
         />
-        <h5>Victoria Romashenko</h5>
+        <h3>Victoria Romashenko</h3>
         <p>
           Can't take my eyes off my watch from. Every time I put it on, it is
           admired by those around me. The build quality and attention to detail
@@ -282,20 +328,23 @@
           width="56"
           height="56"
         />
-        <h5>Anastasia Trachuk</h5>
+        <h3>Anastasia Trachuk</h3>
         <p>
           My watch from is a real masterpiece. Every detail impresses with the
           high quality of execution. Special features like [specify features]
           make it an indispensable companion in my daily life.
         </p>
       </section>
+      <!-- #endregion reviews -->
 
+      <!-- #region contact -->
       <section>
+        <h2>Contact Us</h2>
         <form action="#">
-          <h6>
+          <h3>
             Please use the form below to contact us. Enter your name, email,
             phone, and message and we'll get back to you shortly.
-          </h6>
+          </h3>
 
           <input type="text" id="user-name" placeholder="Name" />
           <input type="text" id="user-email" placeholder="Email" />
@@ -310,9 +359,11 @@
         </form>
         <img src="./images/contact-watch.png" alt="contact-watch" />
       </section>
+      <!-- #endregion contact -->
     </main>
 
     <footer>
+      <!-- #region footer -->
       <section>
         <a href="./index.html">watchcharm</a>
         <ul>
@@ -347,10 +398,10 @@
             </a>
           </li>
         </ul>
-        <h6>
+        <h3>
           Have the time of your life with our watches: where high-class
           craftsmanship meets impeccable design
-        </h6>
+        </h3>
         <nav>
           <ul>
             <li><a href="">Home</a></li>
@@ -369,12 +420,13 @@
         </address>
       </section>
       <section>
-        <h7>&copy;2023 The Watch Spot. All rights reserved.</h7>
+        <h4>&copy;2023 The Watch Spot. All rights reserved.</h4>
         <ul>
           <li><a href="a" target="_blank">Terms of Service</a></li>
           <li><a href="a" target="_blank">Privacy Policy</a></li>
         </ul>
       </section>
+      <!-- #endregion footer -->
     </footer>
   </body>
 </html>
